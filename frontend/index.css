@@ -1,0 +1,64 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Impact, fantasy";
+}
+
+html, body {
+	height: 100%;
+	background: rgb(50, 50, 50);
+}
+
+body {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.user-info-bar {
+	background: rgb(135, 135, 161);
+	width: 300px;
+	height: 50px;
+	border-radius: 5px;
+	margin: 5px auto;
+	padding: 5px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.article-component {
+	background: rgb(213, 213, 255);
+	width: 500px;
+	border-radius: 5px;
+	margin: 5px auto;
+	padding: 5px;
+	display: grid;
+	align-items: center;
+}
+
+.article-info, .content {
+	background: rgb(255, 255, 255);
+	width: 90%;
+	border-radius: 5px;
+	margin: 5px auto;
+	padding: 5px;
+	display: grid;
+	align-items: center;
+}
+
+#all_articles, #all_users {
+	background: rgb(213, 213, 213);
+	border: none;
+	width: 100px;
+	height: 50px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+
+#all_articles:hover, #all_users:hover {
+	background: rgb(200, 200, 200);
+}
